@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+web/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Raw data (too large for git)
+data/nuseds/
+data/conservation_units/
+data/hydrometric/
+data/freshwater_atlas/
+*.csv
+*.xlsx
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Next.js
+web/.next/
+web/out/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
